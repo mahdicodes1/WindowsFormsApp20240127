@@ -50,6 +50,7 @@
 			this.radButton5.TabIndex = 155;
 			this.radButton5.Text = "خه‌زن ";
 			this.radButton5.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
+			this.radButton5.Click += new System.EventHandler(this.radButton5_Click);
 			((Telerik.WinControls.UI.RadButtonElement)(this.radButton5.GetChildAt(0))).Image = global::WindowsFormsApp1.Properties.Resources.add_45_24;
 			((Telerik.WinControls.UI.RadButtonElement)(this.radButton5.GetChildAt(0))).ImageAlignment = System.Drawing.ContentAlignment.MiddleLeft;
 			((Telerik.WinControls.UI.RadButtonElement)(this.radButton5.GetChildAt(0))).TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
