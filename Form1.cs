@@ -15,5 +15,11 @@ namespace WindowsFormsApp1
 			string message = "Your are doing great!";
 			MessageBox.Show(message);
 		}
+
+		private void radButton1_Click(object sender, EventArgs e)
+		{
+			string message = "Your are doing great from second button!";
+			MessageBox.Show(message);
+		}
 	}
 }
